@@ -1,0 +1,344 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+/* Home section ========================================================================= */
+
+#home h1 {
+  font-size: 50px;
+}
+
+
+/* 3rd section ======================================================================== */
+
+#second a {
+  text-decoration: none;
+  color: gray;
+}
+
+#second .col-lg-4:hover a {
+  color: #2699fb;
+  transition: 1s;
+}
+#second .col-lg-4:hover img {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+
+/* onwer section ========================================================================= */
+.image-box {
+  background-image: url(../images/blue-background.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+/* spotlight ======================================================================== */
+.spotlight-section {
+  background: url(../images/spotlight-bg.webp) center bottom/cover no-repeat;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.spotlight-section h3{
+  font-size: 48px;
+}
+.spotlight-section h2{
+  width: 50%;
+  font-size: 44px;
+  background-image: url(../images/spotlight-heading-bg.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+}
+.spotlight-section p{
+  font-size: 18px;
+}
+
+
+/* nav ======================================================================== */
+
+
+.main-mega-menu {
+  display: none;
+  top: 17%;
+}
+#navbarSupportedContent .sub-menu:hover {
+  background-color: #2699fb;
+}
+.sub-menu {
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.badge {
+  position: absolute;
+  top: -20%;
+  left: 75%;
+}
+.nav-item:hover .main-mega-menu {
+  display: block;
+}
+.nav-item:hover .main-mega-menu {
+  display: block;
+}
+#jaipur{
+  display: none;
+}
+.sub-menu:hover .arrow-right i,
+.sub-menu.active .arrow-right i {
+  transform: translateX(7px);
+}
+.arrow-right i {
+  transition: all 0.3s;
+}
+.sub-menu {
+  padding: 15px 15px;
+}
+.large-list {
+  columns: 2;
+}
+li a {
+  text-decoration: none;
+  color: #43505b;
+  font-size: 18px;
+  cursor: pointer;
+}
+#navbarSupportedContent li a:hover{
+  color: #2699fb;
+  transition: .5s;
+}
+#nav-head {
+  text-decoration: none;
+  color: #43505b;
+} 
+
+
+
+
+/* subscriber section ============================================================== */
+ .subscribers-section h4 {
+  font-weight: bold;
+  font-size: 250px;
+}
+.subscribers-section h5 {
+  font-weight: bold;
+  letter-spacing: 15%;
+  font-size: 60px;
+}
+.subscribers-section h6 {
+  font-weight: bold;
+  letter-spacing: 10%;
+  font-size: 40px;
+}
+.on-youtube {
+  font-size: 20px;
+  font-weight: lighter;
+  
+}
+
+.subscriber-count {
+  background: url(../images/subs-right-bg.svg) top 3rem right 5rem no-repeat, url(../images/subs-left-bg.svg) bottom 3rem left 4rem no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+  .subscriber-count{
+    background: none;
+  }
+
+  #jodhpur{
+    display: block;
+  }
+  #jaipur{
+    display: block;
+  }
+}
+
+
+
+/* carousel section ========================================================================= */
+#organizations-slider img {
+  margin: 15px;
+}
+.over-organization-section {
+  overflow: hidden;
+}
+.owl-slider {
+  animation: slide 10s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1100px);
+  }
+}
+#exploreCourse img {
+  width: 100%;
+  border-radius: 15px;
+  
+}
+#exploreCourse a:hover img{
+ transform: scale(1.1);
+ transition: 1s;
+}
+.card:hover{
+  border-radius: 10px;
+ box-shadow: 0px 10px 8px 0px rgba(53, 53, 54, 0.371);
+}
+.card{
+  margin-bottom: 10px;
+}
+#exploreCourse span {
+ background-color: #2698fb6b;
+ border-radius: 5px;
+ padding: 5px;
+}
+#exploreCourse a {
+  text-decoration: none;
+  color: black;
+}
+#exploreCourse li {
+  color: #43505b;
+}
+
+/* button section ========================================================================= */
+
+#blue {
+  background-color: #2699fb;
+  color: white;
+  outline: none;
+  border: none;
+}
+#blue:hover {
+  background-color: white;
+  color: black;
+  outline: 2px solid #2699fb;
+}
+
+#white {
+  color:rgb(53, 52, 52);
+  background-color: white;
+  outline: 2px solid rgb(175, 173, 173);
+  border: none;
+}
+#white:hover {
+  background-color: #2699fb;
+  color: white;
+  outline: 2px solid white;
+}
+
+.bord {
+  width: 100px;
+  border-top: 4px solid #2699fb;
+}
+
+#footblue {
+  background-color: #2699fb;
+}
+#footblue:hover {
+  background-color: white;
+  border: 2px solid #2699fb;
+  height: 250px;
+}
+#back {
+  background-image: url(../images/spotlight-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+#testimonial-review .top-img-box {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(13, 82, 165);
+  overflow: hidden;
+  margin: 45px;
+}
+
+.interview-questions-section .iq-right-box {
+  background: url(../images/iq-dot-bg.webp) top left no-repeat, url(../images/iq-circle.webp) bottom right 30px no-repeat;
+}
+
+.footer-links span{
+  font-size: 20px;
+  color: #43505b;
+  font-weight: bold;
+}
+.footer-links li a{
+  font-size: 15px;
+  color: #939496fd;
+}
+.footer-links li a:hover{
+  color: #2699fb;
+  transition: .5s;
+}
+.second-footer li a{
+  font-size: 15px;
+  color: #939496fd;
+}
+.second-footer li a:hover{
+  color: #2699fb;
+  transition:.5s;
+}
+/* webkit scrollbar */
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: #43505b;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2699fb;
+}
+
+/* alimni section ========================================================================== */
+
+.our-alimini-section{
+
+  padding: 30px;
+  background: url(../images/spotlight-bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-alimini-section p{
+color: white;
+}
+.our-alimini-section h5{
+  color: white;
+}
+.our-alimini-section h2{
+  color: white;
+}
+#carouselIndicator .col-lg-3{
+  background-color: #0b2f4f;
+  margin: 30px 10px 40px 10px;
+  border-radius: 10px;
+  /* width: 30%; */
+  padding: 20px;
+  
+}
+#carouselIndicator img{
+  border-radius: 20px;
+}
+
+/* back to top=========================== */
+body{
+  position: relative;
+}
+#back-to-top{
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+#back-to-top a{
+  text-decoration: none;
+  color: white;
+}
